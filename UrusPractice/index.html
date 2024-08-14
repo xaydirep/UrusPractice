@@ -6,7 +6,7 @@
 
 <head>
 	<!-- Заголовок страницы в браузере -->
-	<title>CSS шрифты — способы подключения, правило font-face, свойство font и другие параметры
+	<title>UrusPractice
 	</title>
 	<!-- Подключаем CSS -->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap"
@@ -48,20 +48,34 @@
 			<img src="/UrusPractice/img/info/image.png" alt="Картинка Машины" class="info__image">
 			<div class="info__content">
 				<dl class="info-list">
-						<dt>Класс:</dt>
-						<dd>Внедорожники</dd>
-					<dt>Мощность двигателя:</dt>
-					<dd>650 л.с.</dd>
-					<dt>Объем двигателя:</dt>
-					<dd>4.0 литра турбо</dd>
+					<div class="info__list-line">
+							<dt>Класс:</dt>
+							<dd>Внедорожники</dd>
+					</div>
+					<div class="info__list-line">
+						<dt>Мощность двигателя:</dt>
+						<dd>650 л.с.</dd>
+					</div>
+					<div class="info__list-line">
+						<dt>Объем двигателя:</dt>
+						<dd>4.0 литра турбо</dd>
+					</div class="info__list-line">
+					<div class="info__list-line">
 					<dt>Разгон 0-100:</dt>
-					<dd>3.6 секунды</dd>
-					<dt>Привод:</dt>
-					<dd>полный</dd>
-					<dt>Количество мест:</dt>
-					<dd>5</dd>
-					<dt>Минимальный срок аренды:</dt>
-					<dd>1 сутки</dd>
+						<dd>3.6 секунды</dd>
+					</div>
+					<div class="info__list-line">
+						<dt>Привод:</dt>
+						<dd>полный</dd>
+					</div class="info__list-line">
+					<div class="info__list-line">
+						<dt>Количество мест:</dt>
+						<dd>5</dd>
+					</div class="info__list-line">
+					<div class="info__list-line">
+						<dt>Минимальный срок аренды:</dt>
+						<dd>1 сутки</dd>
+					</div class="info__list-line">
 				</dl>
 				<div class="order-box">
 					<p class="price">740 $ / сутки</p>
@@ -81,7 +95,69 @@
 			</div>
 		</div>
 	</section>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<div class="color">
+		<div class="color__text">
+			<p>Выбери цвет</p>
+		</div>	
+		<div class="color__gallery">
+			<div class="color__gallery-start">
+				<img src="/UrusPractice/img/color/start.jpg" alt="Производство">
+			</div>
+			<div class="color__gallery-box">
+				<div class="gallery-box__item">
+					<img src="/UrusPractice/img/color/orange.jpg" alt="Orange-color">
+					<p class="">orange</p>
+				</div>
+				<div class="gallery-box__item">
+					<img src="/UrusPractice/img/color/yellow.jpg" alt="Orange-color">
+					<p class="">yellow</p>
+				</div>
+				<div class="gallery-box__item">
+					<img src="/UrusPractice/img/color/white.jpg" alt="Orange-color">
+					<p class="">white</p>
+				</div>
+				<div class="gallery-box__item">
+					<img src="/UrusPractice/img/color/black.jpg" alt="Orange-color">
+					<p class="">black</p>
+				</div>
+			</div>
+			<div class="color__gallery-end">
+				<img src="/UrusPractice/img/color/end.jpg" alt="Салон">
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer__container">
+			<div class="footer__header"> 
+				<p>Забронировать автомобиль Lamborghini Urus</p>
+			</div>
+			<div class="footer__content">
+				<div class="footer__content-info content-info">
+					<div class="content-info__extra-services extra-services">
+						<p class="extra-services__insurance">Обязательный страховой взнос: 2000 $</p>
+						<p class="extra-services__driver">личный водитель: по запросу</p>
+					</div>
+					<div class="content-info__connection connection" >
+						<p class="connection__info">Мы свяжемся с вами в течение часа для уточнения деталей. Либо забронируйте автомобиль по номеру:</p>
+						<p class="connection__number">999-99-99</p>
+					</div>
+					<div class="content-info__caution">
+						<p>Нажимая кнопку «Подтвердить бронь» вы соглашаетесь с условиями обработки данных</p>
+					</div>
+				</div>
+				<div class="footer__content-contacts contacts">
+					<form action="#">
+						<div class="contacts__name"><input type="name" placeholder="Ваше имя"></div>
+						<div class="contacts__number"><input type="tel" placeholder="Номер телефона"></div>
+						<div class="contacts__city"><input type="" placeholder="Город"></div>
+						<div class="contacts__price">740 $ / сутки</div>
+						<button class="contacts__order">ЗАБРОНИРОВАТЬ</button>
+					</form>
+				</div>
+			</div>
+			<div class="footer__politic"><a href="#">Политика конфиденциальности</a></div>
+		</div>
+	</div>
 </body>
 
 </html>

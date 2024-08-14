@@ -91,9 +91,10 @@ padding: 0 75px 50px 0;
 
 
 .info {
+	padding: 170px 0 170px 0;
+	background-color: #F8F8F8;
 	color: #13171C;
 	&__title {
-		margin: 170px 0 0 0;
 		text-align: center;
 	font-size: 160px;
 	line-height: 194px;
@@ -101,15 +102,17 @@ padding: 0 75px 50px 0;
 	}
 
 	&__image {
+		max-width: 100%;
+		margin: 0 auto;
 	}
 
 	&__content {
 		display: flex;
-		height: 190px;
-		justify-content: center;
+		margin: 0px 0 170px 0;
+		padding: 0 100px 0 150px;
+		gap: 94px;
 	}
 	&__gallery{
-		margin: 167px 0 0 0;
 	}
 }
 .container {
@@ -119,9 +122,19 @@ font-size: 24px;
 line-height: 29px;
 text-transform: uppercase;
 color: #13171C;
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
+column-count: 2;
+gap: 140px;
+}
+
+.info-list dd{
+	display: inline-block;
+}
+.info-list dt{
+	display: inline-block;
+}
+
+.info__list-line{
+	margin: 0 0 22px 0;
 }
 .order-box {
 }
@@ -129,8 +142,7 @@ flex-direction: column;
 font-size: 46px;
 line-height: 56px;
 text-transform: uppercase;
-
-
+margin: 0 0 40px 0;
 }
 .order {
 padding: 30px 58px 30px 58px;
@@ -145,8 +157,204 @@ background: linear-gradient(181.77deg, #FF5017 2.24%, #FF6837 99.25%);
 .gallery {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 	gap: 0 20px;
+	border-radius: 20px;
 	&__item {
+		max-width: 100%;
 	}
 }
 
+
+.color {
+
+	&__text {
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+		line-height: 194px;
+		text-transform: uppercase;
+		color: #13171C;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		font-size: 160px;
+		line-height: 194px;
+	}
+	&__gallery {
+
+	}
+
+	&__gallery-start {
+	}
+
+	&__gallery-box {
+		display: flex;
+		padding: 170px 50px 170px 50px;
+		gap: 20px;
+		justify-content: center;
+		background-color: #13171C;
+	}
+	&__gallery-end {
+	}
+}
+.gallery-box {
+	&__item {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+
+	}
+
+	&__item 	img{
+		border-radius: 20px;
+	}
+
+
+	&__item 	p{
+		font-size: 36px;
+		line-height: 44px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+
+}
+
+
+ .color__gallery img{
+ 	width: 100%;
+ }
+
+ 
+ .footer {
+	color: #FFFFFF;
+	background-color: #13171C;
+	&__container {
+		max-width: 1360px;
+		margin: 0 auto;
+	}
+
+	&__header {
+	font-size: 36px;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #FF5017;
+	text-align: center;
+	padding: 170px 0 52px 0;
+	}
+	&__content {
+		display: flex;
+		justify-content: center;
+		gap: 203px;
+	}
+
+	&__content-info {
+
+	}
+
+	&__content-contacts {
+	}
+
+	&__politic {
+	padding: 114px 0 87px 0;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	}
+}
+
+a{
+	color: #FFFFFF;
+}
+
+.contacts input{
+		background-color: #13171C;
+	font-size: 24px;
+	line-height: 29px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.content-info {
+	&__extra-services {
+		margin: 0 0 29px 0;
+		max-width: 563px;
+	}
+
+	&__connection {
+		max-width: 477px;
+font-size: 24px;
+line-height: 32px;
+margin: 0 0 77px 0;
+	}
+
+	&__caution {
+	font-size: 14px;
+	line-height: 17px;
+	max-width: 329px;
+	}
+}
+.extra-services {
+	font-size: 24px;
+	line-height: 29px;
+	text-transform: uppercase;
+	color: #BCBCBC;
+	&__insurance {
+		margin: 0 0 20px 0;
+	}
+
+	&__driver {
+	}
+}
+.connection {
+
+	&__info {
+		margin: 0 0 20px 0;
+	}
+
+	&__number {
+	}
+}
+.contacts {
+	max-width: 594px;
+	&__name {
+		border-bottom: 1px solid #FFFFFF;
+		margin: 0 0 20px 0;
+	}
+
+	&__number {
+		border-bottom: 1px solid #FFFFFF;
+		margin: 0 0 20px 0;
+	}
+
+	&__city {
+		border-bottom: 1px solid #FFFFFF;
+		margin: 0 0 36px 0;
+	}
+
+	&__price {
+	font-size: 36px;
+	line-height: 44px;
+	text-transform: uppercase;
+	margin: 0 0 40px 0;
+	}
+
+	&__order {
+		padding: 30px 186px;
+		background: linear-gradient(181.77deg, #FF5017 2.24%, #FF6837 99.25%);
+	}
+}
+
+.contacts__order button{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+text-transform: uppercase;
+
+color: #11171C;
+
+
+}
