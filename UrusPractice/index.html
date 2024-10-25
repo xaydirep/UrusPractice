@@ -42,7 +42,7 @@
 			</div>
 		</div>
 	</header>
-	<section class="info">
+	 <section class="info">
 		<div class="container">
 			<h2 class="info__title">Lamborghini Urus</h2>
 			<img src="/UrusPractice/img/info/image.png" alt="Картинка Машины" class="info__image">
@@ -79,7 +79,7 @@
 				</dl>
 				<div class="order-box">
 					<p class="price">740 $ / сутки</p>
-					<button class="order">ЗАБРОНИРОВАТЬ</button>
+					<button type="submit" class="order">ЗАБРОНИРОВАТЬ</button>
 				</div>
 			</div>
 			<div class="info__gallery gallery">
@@ -95,7 +95,7 @@
 			</div>
 		</div>
 	</section>
-	<div class="color">
+	 <section class="color">
 		<div class="color__text">
 			<p>Выбери цвет</p>
 		</div>	
@@ -125,39 +125,35 @@
 				<img src="/UrusPractice/img/color/end.jpg" alt="Салон">
 			</div>
 		</div>
-	</div>
-	<div class="footer">
-		<div class="footer__container">
-			<div class="footer__header"> 
-				<p>Забронировать автомобиль Lamborghini Urus</p>
-			</div>
-			<div class="footer__content">
-				<div class="footer__content-info content-info">
-					<div class="content-info__extra-services extra-services">
-						<p class="extra-services__insurance">Обязательный страховой взнос: 2000 $</p>
-						<p class="extra-services__driver">личный водитель: по запросу</p>
-					</div>
-					<div class="content-info__connection connection" >
-						<p class="connection__info">Мы свяжемся с вами в течение часа для уточнения деталей. Либо забронируйте автомобиль по номеру:</p>
-						<p class="connection__number">999-99-99</p>
-					</div>
-					<div class="content-info__caution">
-						<p>Нажимая кнопку «Подтвердить бронь» вы соглашаетесь с условиями обработки данных</p>
-					</div>
+	</section>
+	<section class="contacts">
+		<div class="container">
+			<h2 class="contacts__title">
+				Забронировать автомобиль Lamborghini Urus
+			</h2>
+			<div class="contacts__box">
+				<div class="contacts__info">
+					<p class="contacts__headtext">Обязательный страховой взнос: 2000 $</p>
+					<p class="contacts__headtext">личный водитель: по запросу</p>
+					<p class="contacts__text textp">Мы свяжемся с вами в течение часа для уточнения деталей. Либо забронируйте автомобиль по номеру:</p>
+					<a href="tel:999-99-99" class="contacts__phone">999-99-99</a>
+					<p class="contacts__text-rules">
+						Нажимая кнопку «Подтвердить бронь» вы соглашаетесь с условиями обработки данных
+					</p>
 				</div>
-				<div class="footer__content-contacts contacts">
-					<form action="#">
-						<div class="contacts__name"><input type="name" placeholder="Ваше имя"></div>
-						<div class="contacts__number"><input type="tel" placeholder="Номер телефона"></div>
-						<div class="contacts__city"><input type="" placeholder="Город"></div>
-						<div class="contacts__price">740 $ / сутки</div>
-						<button class="contacts__order">ЗАБРОНИРОВАТЬ</button>
-					</form>
-				</div>
+				<form action="#" class="contacts__form form">
+					<input class="form__input" type="text" placeholder="Ваше имя">
+					<input class="form__input" type="tel" placeholder="НОМЕР ТЕЛЕФОНА">
+					<input class="form__input" type="text" placeholder="ГОРОД">
+					<div class="form__price"><p>740 $ / сутки</p></div>
+					<button class="form__order" type="submit">Забронировать</button>
+				</form>
 			</div>
-			<div class="footer__politic"><a href="#">Политика конфиденциальности</a></div>
 		</div>
-	</div>
+	</section>
+	<footer class="footer">
+		<a href="#" class="footer__link">Политика конфиденциальности</a>
+	</footer>
 </body>
 
 </html>
